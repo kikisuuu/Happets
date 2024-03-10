@@ -1,0 +1,154 @@
+@font-face{
+	font-family: kint;
+	src: url("font/kanit/Kanit-LightItalic.ttf")
+}
+
+m{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: kint, serif;
+}
+
+body{
+	background-color: #F0FFFF;
+}
+
+onlythispart{
+	display: flex;
+	height: 10vh;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.container{
+	max-width: 700px;
+	width: 100%;
+	background: #FFF7F8;
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+
+.container form .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.user-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	font-size: 16px;
+	border-bottom-width: 2px;
+	transition: all 0.3 ease;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:focus valid{
+	border-color: #6495ED
+}
+
+.select-btn{
+	display: flex;
+	height: 50px;
+	align-items: center;
+	padding: 0 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	background-color: #fff
+}
+
+form .user-details .type-title{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+form .user-details .category{
+	display: flex;
+	width: 80%;
+	margin:14 0;
+	justify-content: space-between;
+}
+
+.user-details .category label{
+	display: flex;
+	align-items: center;
+	column-gap: 50px;
+}
+
+.user-details .category .dot{
+	height: 18px;
+	width: 18px;
+	background: #d9d9d9;
+	border-radius: 50%;
+	margin-right: 10px;
+	border: 5px solid transparent;
+	transition: all 0.3s ease;
+}
+
+#dot1:checked ~ .category label .one,
+#dot2:checked ~ .category label .two,
+#dot3:checked ~ .category label .three{
+	border-color: #D9D9D9;
+	background: #9b59b6;
+}
+
+form input[type="radio"]{
+	display: none;
+}
+form .button{
+	height: 45px;
+	margin: 45px 0;
+}
+
+form .button input{
+	height:100%;
+	width: 100%;
+	outline: none;
+	color:#fff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+form .button input:hover{
+	background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+@media (max-width: 584px){
+	.container{
+		max-width: 100%
+	}
+
+form .user-details .input-box{
+	margin-bottom: 15px;
+	width: 100%
+	}
+form .user-details .category{
+	width: 100%;
+}
+	.container form .user-details{
+		max-height: 300px;
+		overflow-y: scroll;
+	}
+	.user-details::-webkit-scrollbar{
+		widows: 0,
+	}
+}

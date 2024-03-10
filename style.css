@@ -8,7 +8,7 @@ h1:active, h1:hover { color: #65518d !important; }
 }
 
 li h1{
-    color: #7e69a8;
+    color: #65518d;
 	font-style: oblique
 }
 li h1:hover{
@@ -17,10 +17,10 @@ li h1:hover{
 
 .fixed-btn{
 	position: fixed;
-	background: #0FACF3;
-	width: 180px;
-	height: 45px;
-	line-height: 45px;
+	background: #6CB4EE;
+	width: 300px;
+	height: 60px;
+	line-height: 0px;
 	bottom: 10%;
 	right: 3%;
 	border-radius: 3px;
@@ -40,3 +40,71 @@ li h1:hover{
 .fixed-btn:active{
 	box-shadow: 0 0 ;
 }
+
+@font-face {
+	font-family: bubble;
+	src: url("font/RubikBubbles-Regular.ttf");
+}
+
+h2{
+    font-family: bubble, serif;
+    font-weight: 900;
+    color: #097782;
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+@font-face{
+	font-family: burik;
+	src: url("font/Rubik/Rubik-Italic-VariableFont_wght.ttf");
+}
+
+p{
+    font-family: burik, serif;
+    font-weight: 400;
+    color: #5E819E;
+    text-align: center;
+    font-size: 50px;
+}
+
+@font-face{
+	font-family: kanit regular;
+	src: url("font/kanit/Kanit-Regular.ttf")
+}
+
+e{
+	font-family: kanit regular, serif;
+    font-weight: 400;
+    color: #5E819E;
+    text-align: center;
+    font-size: 50px;
+}
+
+@font-face{
+	font-family: kanit light;
+	src: url("font/kanit/Kanit-LightItalic.ttf")
+}
+
+l{
+	font-family: kanit light, serif;
+    font-weight: 400;
+    color: #5E819E;
+    font-size: 40px;
+	text-align: center;
+}
+
+img{
+	mix-blend-mode: multiply;
+}
+
+.underline{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
