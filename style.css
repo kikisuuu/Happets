@@ -68,6 +68,14 @@ p{
     font-size: 50px;
 }
 
+p2{
+    font-family: burik, serif;
+    font-weight: 400;
+    color: #143434;
+    text-align: left;
+    font-size: 30px;
+}
+
 @font-face{
 	font-family: kanit regular;
 	src: url("font/kanit/Kanit-Regular.ttf")
@@ -79,6 +87,14 @@ e{
     color: #5E819E;
     text-align: center;
     font-size: 50px;
+}
+
+e2{
+	font-family: kanit regular, serif;
+    font-weight: 400;
+    color: #5E819E;
+    text-align: center;
+    font-size: 20px;
 }
 
 @font-face{
@@ -102,9 +118,39 @@ img{
 	text-decoration: none;
 }
 
+v{
+	position: fixed
+}
 
+a[title]::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
 
+a[title]:hover::after {
+  opacity: 1;
+}
 
+@font-face{
+	font-family: kanit extralight;
+	src: url("font/kanit/Kanit-ExtraLightItalic.ttf")
+}
 
+wl{
+	font-family: kanit extralight, serif;
+    font-weight: 400;
+    color: #5E819E;
+    font-size: 40px;
+	text-align: center;
+}
 
 
