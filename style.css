@@ -1,3 +1,10 @@
+body {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	background-color: #FFF7F8;
+}
 #navbarSupportedContent ul.nav li h1:hover { text-decoration: none;  }
 h1 { color: #9a89bb; }
 h1:active, h1:hover { color: #65518d !important; }
@@ -13,6 +20,33 @@ li h1{
 }
 li h1:hover{
     color: #65518d;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F5DCDC;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	border-radius: 25px;
+  padding: 20px;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+	border-radius: 25px;
+  padding: 20px;
+}
+
+.dropdown-content a:hover {
+  background-color: #F5E6DC;
 }
 
 .fixed-btn{
@@ -67,7 +101,13 @@ p{
     text-align: center;
     font-size: 50px;
 }
-
+p1{
+    font-family: burik, serif;
+    font-weight: 400;
+    color: #33A3AC;
+    text-align:left;
+    font-size: 50px;
+}
 p2{
     font-family: burik, serif;
     font-weight: 400;
@@ -75,7 +115,20 @@ p2{
     text-align: left;
     font-size: 30px;
 }
-
+p3{
+    font-family: burik, serif;
+    font-weight: 400;
+    color: #3ABEC9;
+    text-align: left;
+    font-size: 30px;
+}
+p4{
+    font-family: burik, serif;
+    font-weight: 400;
+    color: #3ABEC9;
+    text-align: left;
+    font-size: 60px;
+}
 @font-face{
 	font-family: kanit regular;
 	src: url("font/kanit/Kanit-Regular.ttf")
@@ -152,5 +205,3 @@ wl{
     font-size: 40px;
 	text-align: center;
 }
-
-

@@ -2,16 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Happets</title>
+<link rel="stylesheet" href="footerstyle.css" type="text/css" />
+<link rel="stylesheet" href="imgsliding.css" type="text/css" />
 <link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="imgsliding.js" defer></script>
 <style type="text/css">
-body {
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-	background-color: #FFF7F8;
-}
+
 	p{
 		position:sticky
 	}
@@ -48,7 +49,11 @@ function MM_swapImage() { //v3.0
       <td width="16%" bgcolor="#BFE4F0"><a href="happets_homepage.html"><img src="image/logo.jpg" width="205" height="187" alt=""/></a></td>
       <td width="16%" bgcolor="#BFE4F0"></td>
 		<ul class="list-custom-inline li">
-      <td width="16%" bgcolor="#BFE4F0"><a class="underline" href="Happets_environment.html"><h1 id="myText" style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Environment</h1></a></td>
+      <td width="16%" bgcolor="#BFE4F0" class="dropdown"><a class="underline" href="#"><h1 id="myText" style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">About Happets</h1></a> 
+		  <div class="dropdown-content">
+          <a href="Happets_environment.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Environment</h1></a>
+          <a href="#"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Giving Back</h1></a>
+        </div></td>
       <td width="14%" bgcolor="#BFE4F0"><a class="underline" href="Happets_our_team.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Our team</h1></a></td>
       <td width="12%" bgcolor="#BFE4F0"><a class="underline" href="Happets_reviews.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Reviews</h1></a></td>
       <td width="11%" bgcolor="#BFE4F0"><a class="underline" href="Happets_booking.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Reserve</h1></a></td>
@@ -57,6 +62,26 @@ function MM_swapImage() { //v3.0
     </tr>
   </tbody>
 </table>
+	<br>
+	<br>
+	<br>
+	<center>
+	<section class="wrapper">
+	<i class="fa-solid fa-arrow-left button" id="prev"></i>
+	<div class="image-container">
+		<div class="carousel">
+			<img src="image/dogadoptionbanner.webp" alt="" /> 
+			<img src="image/petdiscount.jpeg"  alt="" />
+	        <img src="image/petshopdiscount.jpeg" alt="" /> 
+		    <img src="image/donate.jpg" alt="" />
+			<img src="image/donate.jpg" alt="" />
+			<img src="image/donate.jpg" alt="" />
+			<img src="image/donate.jpg" alt="" />
+		</div>
+		<i class="fa-solid fa-arrow-right button" id="next"></i>
+	  </div>
+	</section>
+</center>
 	<ul class="rubik-bubbles-regular">
 <h2>Our Service</h2>
 </ul>
@@ -81,7 +106,7 @@ function MM_swapImage() { //v3.0
 <table width="100%" height="288" border="0">
   <tbody>
     <tr>
-      <td width="73%"><p>We are Happets, Macao&rsquo;s most trusted and beloved pet daycare. We are a band of pet lovers and pet parents dedicated to providing your pet with a safe, fun and caring environment in your absence. We believe in a personalized approach to pet care ensuring your peace-of-mind knowing your dogs &amp; cats are safe, happy and loved while you&rsquo;re away.</p></td>
+      <td width="73%"><p>We are Happets, New York&rsquo;s most trusted and beloved pet daycare. We are a band of pet lovers and pet parents dedicated to providing your pet with a safe, fun and caring environment in your absence. We believe in a personalized approach to pet care ensuring your peace-of-mind knowing your dogs &amp; cats are safe, happy and loved while you&rsquo;re away.</p></td>
 	<td width="27%"><img src="image/dog.jpg" width="456" height="509" alt=""/></td>
     </tr>
   </tbody>
@@ -90,7 +115,7 @@ function MM_swapImage() { //v3.0
 <table width="100%" height="120" border="0">
   <tbody>
     <tr>
-      <td><h2>Meet us!</h2>
+		<td><h2>Meet us!</h2></td></tr></tbody></table>
         <table width="100%" border="0" bgcolor="#FAF9F6">
           <tbody>
             <tr>
@@ -157,14 +182,14 @@ function MM_swapImage() { //v3.0
                 </h3>
               </center></td>
               <td bgcolor="#FAF9F6"><h3>
-                <l>8:00am - 6:00pm</l>
+                <l>8:00am - 5:00pm</l>
               </h3></td>
             </tr>
 			  <tr>
 			  <td height="40" bgcolor="#FAF9F6"><center>
 			    <h3>
 			      <l>Sunday</l>
-			      </h3>
+		        </h3>
 			  </center></td>
 			    <td bgcolor="#FAF9F6"><h3>
 			      <l>Closed</l>
@@ -172,12 +197,40 @@ function MM_swapImage() { //v3.0
 		    </tr>
           </tbody>
         </table>
-        <p>&nbsp;</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+<section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <p1>About Happets</p1>
+          <ul class="links">
+            <p3>
+            <li><a href="Happets_reviews.html">Reviews</a></li>
+				<li><a href="Happets_our_team.html">Our Team</a></li>
+				<li><a href="Happets_contact_us.html">Contact Us</a></li>
+				<li><a href="#">Give Back to Society</a></li>
+				<li><a href="Happets_environment.html">Happets environment</a></li>
+				</p3>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p1>Let's Help with WWF!</p1>
+          <ul class="links">
+            <p3>  <li><a href="https://www.worldwildlife.org/pages/ways-to-support-wwf">How?</a></li>
+			<li><a href="https://protect.worldwildlife.org/page/65217/donate/1?en_og_source=Web_Donation&ea.tracking.id=Web_Topnav&supporter.appealCode=AWE2402OQ18336A07147RX&_gl=1*siezwz*_ga*MTk3NjMyNDY0Mi4xNzExODkxNTk4*_ga_FK6M9RK84Z*MTcxMTg5MTU5Ny4xLjAuMTcxMTg5MTYwMS41Ni4wLjEyNTkzNjA1MjE.*_gcl_au*MTQ3MDQxODcyNC4xNzExODkxNTk4&_ga=2.4761524.620092175.1711891598-1976324642.1711891598">Donate Now</a></li>
+            <li><a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions.aspx?sc=AWY2404OQ18335A02071RX&s_subsrc=topnav&_gl=1*yntvat*_ga*MTk3NjMyNDY0Mi4xNzExODkxNTk4*_ga_FK6M9RK84Z*MTcxMTg5MTU5Ny4xLjEuMTcxMTg5MTY2Ni41OS4wLjEyNTkzNjA1MjE.*_gcl_au*MTQ3MDQxODcyNC4xNzExODkxNTk4&_ga=2.38313124.620092175.1711891598-1976324642.1711891598">Adopt an Animal</a></li>
+          <li><a href="https://www.worldwildlife.org/about/">Know More About WWF</a></li>
+        </p3>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p1>Social Media</p1>
+          <div class="icons">
+            <p4><a href="https://www.facebook.com/seventeennews"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/pledis_17"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.instagram.com/saythename_17/"><i class="fa-brands fa-instagram"></i></a></p4>
+          </div>
+        </div>
+      </div>
+    </section>
 <div class="fixed-btn">
   <a class="underline" href="Happets_booking.html"><p>Reservation</p></a>	
 </div>

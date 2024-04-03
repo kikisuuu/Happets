@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Untitled Document</title>
+	<link rel="stylesheet" href="footerstyle.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+	<link rel="stylesheet" href="draft.css" type="text/css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="contactstyle.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -24,7 +28,11 @@
       <td width="16%" bgcolor="#BFE4F0"><a href="happets_homepage.html"><img src="image/logo.jpg" width="205" height="187" alt=""/></a></td>
       <td width="16%" bgcolor="#BFE4F0"></td>
 		<ul class="list-custom-inline li">
-      <td width="16%" bgcolor="#BFE4F0"><a class="underline" href="Happets_environment.html"><h1 id="myText" style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Environment</h1></a></td>
+      <td width="16%" bgcolor="#BFE4F0" class="dropdown"><a class="underline" href="#"><h1 id="myText" style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">About Happets</h1></a> 
+		  <div class="dropdown-content">
+          <a href="Happets_environment.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Environment</h1></a>
+          <a href="#"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Giving Back</h1></a>
+        </div></td>
       <td width="14%" bgcolor="#BFE4F0"><a class="underline" href="Happets_our_team.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Our team</h1></a></td>
       <td width="12%" bgcolor="#BFE4F0"><a class="underline" href="Happets_reviews.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Reviews</h1></a></td>
       <td width="11%" bgcolor="#BFE4F0"><a class="underline" href="Happets_booking.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Reserve</h1></a></td>
@@ -42,35 +50,68 @@
     </tr>
   </tbody>
 </table>
+	<div class="container">
+	<div class="content">
+		<div class="image-box">
+		<img src="image/cat-dog.jpg" alt="">
+		</div>
+		
+	<form action="#">
+		<div class="topic"><e>Send Us a message</e></div>
+	  <div class="input-box">
+		<input type="text" required>
+			<label>Enter your name</label>
+		</div>
+		<div class="input-box">
+			<input type="text" required>
+			<label>Enter your email</label>
+		</div>
+		<div class="message-box">
+		<textarea></textarea>
+			<label>Enter your message</label>
+		</div>
+		<div class="input-box">
+		<input type="submit" value="Send Message">
+		</div>
+		</form>
+	</div>
+	</div>
 </ul>
-	
-	<!---<div class="wrapper">
-	<div class="button">
-		<div class="icon">
-		<i class="fab fa-instagram"></i>
-		</div>
-		<span>Instagram</span>
-		</div>
-	</div>
-	
-	<div class="wrapper">
-	<div class="button">
-		<div class="icon">
-		<i class="fab fa-facebook"></i>
-		</div>
-		<span>Facebook</span>
-		</div>
-	</div>
-<bady>
-	<div class="wrapper">
-	<div class="button">
-		<div class="icon">
-		<i class="fab fa-youtube"></i>
-		</div>
-		<span>Youtube</span>
-		</div>
-	</div>
-	</bady>--->
+	<br><br><br>
+	<section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <p1>About Happets</p1>
+          <ul class="links">
+            <p3>
+            <li><a href="Happets_reviews.html">Reviews</a></li>
+				<li><a href="Happets_our_team.html">Our Team</a></li>
+				<li><a href="Happets_contact_us.html">Contact Us</a></li>
+				<li><a href="#">Give Back to Society</a></li>
+				<li><a href="Happets_environment.html">Happets environment</a></li>
+				</p3>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p1>Let's Help with WWF!</p1>
+          <ul class="links">
+            <p3>  <li><a href="https://www.worldwildlife.org/pages/ways-to-support-wwf">How?</a></li>
+			<li><a href="https://protect.worldwildlife.org/page/65217/donate/1?en_og_source=Web_Donation&ea.tracking.id=Web_Topnav&supporter.appealCode=AWE2402OQ18336A07147RX&_gl=1*siezwz*_ga*MTk3NjMyNDY0Mi4xNzExODkxNTk4*_ga_FK6M9RK84Z*MTcxMTg5MTU5Ny4xLjAuMTcxMTg5MTYwMS41Ni4wLjEyNTkzNjA1MjE.*_gcl_au*MTQ3MDQxODcyNC4xNzExODkxNTk4&_ga=2.4761524.620092175.1711891598-1976324642.1711891598">Donate Now</a></li>
+            <li><a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions.aspx?sc=AWY2404OQ18335A02071RX&s_subsrc=topnav&_gl=1*yntvat*_ga*MTk3NjMyNDY0Mi4xNzExODkxNTk4*_ga_FK6M9RK84Z*MTcxMTg5MTU5Ny4xLjEuMTcxMTg5MTY2Ni41OS4wLjEyNTkzNjA1MjE.*_gcl_au*MTQ3MDQxODcyNC4xNzExODkxNTk4&_ga=2.38313124.620092175.1711891598-1976324642.1711891598">Adopt an Animal</a></li>
+          <li><a href="https://www.worldwildlife.org/about/">Know More About WWF</a></li>
+        </p3>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p1>Social Media</p1>
+          <div class="icons">
+            <p4><a href="https://www.facebook.com/seventeennews"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/pledis_17"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.instagram.com/saythename_17/"><i class="fa-brands fa-instagram"></i></a></p4>
+          </div>
+        </div>
+      </div>
+    </section>
 	<div class="fixed-btn">
   <a class="underline" href="Happets_booking.html"><p>Reservation</p></a>	
 </div>
