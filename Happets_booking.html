@@ -3,8 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>Booking Form</title>
+	<link rel="stylesheet" href="footerstyle.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="bookingstyle.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
 
 <body>
@@ -17,7 +19,8 @@
       <td width="16%" bgcolor="#BFE4F0" class="dropdown"><a class="underline" href="#"><h1 id="myText" style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">About Happets</h1></a> 
 		  <div class="dropdown-content">
           <a href="Happets_environment.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Environment</h1></a>
-          <a href="#"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Giving Back</h1></a>
+          <a href="Happets_giveback.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Give Back</h1></a>
+		<a href="Happets_discounts.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Discount plans</h1></a>
         </div></td>
       <td width="14%" bgcolor="#BFE4F0"><a class="underline" href="Happets_our_team.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Our team</h1></a></td>
       <td width="12%" bgcolor="#BFE4F0"><a class="underline" href="Happets_reviews.html"><h1 style="font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; color: #3ABEC9;">Reviews</h1></a></td>
@@ -33,11 +36,12 @@
 </ul>
 	<onlythispart>
 	<m>
-	<div class="container">
-	<form action="Congrats.html">
+	<div class="container"> <!--action="Congrats.html"-->
+	<form action="Congrats.html" method="POST">
 		<div class="user-details">
 			<div class="input-box">
 				<span class="details">Pet's Name</span>
+				<input type="hidden" name="_subject" value="See you in Happets!">
 				<input type="text" placeholder="Enter your pet's name" required>
 				</div>
 			<div class="input-box">
@@ -46,7 +50,7 @@
 				</div>
 			<div class="input-box">
 				<span class="details">Email</span>
-				<input type="email" placeholder="Enter your email" required>
+				<input type="email" name="email" placeholder="Enter your email" required>
 				</div>
 			<div class="input-box">
 				<span class="details">Phone Number</span>
@@ -84,6 +88,41 @@
 </form>
 		</div>
 		</m>
-		</onlythispart>
+		</onlythispart><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <p1>About Happets</p1>
+          <ul class="links">
+            <p3>
+            <li><a href="Happets_reviews.html">Reviews</a></li>
+				<li><a href="Happets_our_team.html">Our Team</a></li>
+				<li><a href="Happets_contact_us.html">Contact Us</a></li>
+				<li><a href="Happets_discounts.html">Discount Plans</a></li>
+				<li><a href="Happets_giveback.html">Give Back to Society</a></li>
+				<li><a href="Happets_environment.html">Happets environment</a></li>
+				</p3>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p1>Let's Help with WWF!</p1>
+          <ul class="links">
+            <p3>  <li><a href="https://www.worldwildlife.org/pages/ways-to-support-wwf">How?</a></li>
+			<li><a href="https://protect.worldwildlife.org/page/65217/donate/1?en_og_source=Web_Donation&ea.tracking.id=Web_Topnav&supporter.appealCode=AWE2402OQ18336A07147RX&_gl=1*siezwz*_ga*MTk3NjMyNDY0Mi4xNzExODkxNTk4*_ga_FK6M9RK84Z*MTcxMTg5MTU5Ny4xLjAuMTcxMTg5MTYwMS41Ni4wLjEyNTkzNjA1MjE.*_gcl_au*MTQ3MDQxODcyNC4xNzExODkxNTk4&_ga=2.4761524.620092175.1711891598-1976324642.1711891598">Donate Now</a></li>
+            <li><a href="https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions.aspx?sc=AWY2404OQ18335A02071RX&s_subsrc=topnav&_gl=1*yntvat*_ga*MTk3NjMyNDY0Mi4xNzExODkxNTk4*_ga_FK6M9RK84Z*MTcxMTg5MTU5Ny4xLjEuMTcxMTg5MTY2Ni41OS4wLjEyNTkzNjA1MjE.*_gcl_au*MTQ3MDQxODcyNC4xNzExODkxNTk4&_ga=2.38313124.620092175.1711891598-1976324642.1711891598">Adopt an Animal</a></li>
+          <li><a href="https://www.worldwildlife.org/about/">Know More About WWF</a></li>
+        </p3>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <p1>Social Media</p1>
+          <div class="icons">
+            <p4><a href="https://www.facebook.com/profile.php?id=61557735278537"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://x.com/Happets2024"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.instagram.com/happets_official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a></p4>
+          </div>
+        </div>
+      </div>
+    </section>
 </body>
 </html>
